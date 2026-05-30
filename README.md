@@ -84,6 +84,7 @@ Cuisine Prediction
 
 ---
 
+
 ## 📁 Project Structure
 
 ```
@@ -98,6 +99,7 @@ whats-cooking-nlp/
 
 ---
 
+
 ## 📦 Requirements
 
 ```
@@ -108,3 +110,6 @@ matplotlib
 seaborn
 joblib
 ```
+## ⚠️ Note
+
+If GitHub fails to render the notebook and shows "An error occurred", just paste the notebook URL into [nbviewer.org] to view it properly.
