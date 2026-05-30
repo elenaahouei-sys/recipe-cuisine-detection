@@ -80,31 +80,6 @@ Cuisine Prediction
 | Naive Bayes | ~72% |
 
 > `class_weight='balanced'` used to handle class imbalance.
-
----
-
-## 🚀 Quickstart
-
-```bash
-git clone https://github.com/YOUR_USERNAME/whats-cooking-nlp
-cd whats-cooking-nlp
-pip install -r requirements.txt
-```
-
-Download the dataset from Kaggle and place `recipes.csv` in the project root, then run the notebook:
-
-```bash
-jupyter notebook cuisine_classifier.ipynb
-```
-
-To use the saved model directly:
-
-```python
-import joblib
-
-model = joblib.load('cuisine_classifier.pkl')
-prediction = model.predict(["chicken turmeric garam masala cumin yogurt"])
-print(prediction[0])  # → Indian
 ```
 
 ---
